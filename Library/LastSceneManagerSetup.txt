@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/TopDownEngine/Demos/Koala2D/KoalaCinemachineZones.unity
+- path: Assets/Pichula/Scenes/SampleScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
