@@ -12,7 +12,9 @@ public class CameraController : MonoBehaviour
     {
         player = FindObjectOfType<Player>().GetComponent<Transform>();
 
-        offset = new Vector3(0.0f, 7.0f, 0.0f);
+        offset = new Vector3(0.0f, 7.0f, -4.0f);
+
+        transform.LookAt(player.position);
     }
 
     // Update is called once per frame
